@@ -5,7 +5,7 @@ rm -f ./master.zip
 echo downloadlibrealses v2.30.0
 wget https://github.com/IntelRealSense/librealsense/archive/v2.30.0.zip
 unzip ./v2.30.0.zip -d .
-cd ./librealsense-master
+cd ./libre<TAB>
 
 echo Install udev-rules
 sudo cp config/99-realsense-libusb.rules /etc/udev/rules.d/ 
